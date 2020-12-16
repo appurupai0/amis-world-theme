@@ -1,0 +1,394 @@
+.fixed{
+	width: 100%;
+	z-index: 2;
+}
+
+.fixed.on{
+	position: fixed;
+	top: -70;
+	transition-duration: 800ms;
+}
+
+.header-menu{
+	display: flex;
+	align-items: center;
+	height: 62px;
+	background-color: rgba(255,255,255,.9);
+}
+
+.header-menu > img{
+	height: 60px;
+	width: 80px;
+	margin-left: 80px;
+	margin-right: 40%;
+}
+
+.header-menu li{
+	margin-right: 35px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.header-menu li a{
+	text-decoration: none;
+	color: black;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+}
+
+.header-menu li a:hover{
+	text-shadow: #00ff00 0px 0px 20px;
+	color: #6b8e23;
+}
+
+.header-menu li:last-child{
+	margin-right: 0;
+}
+
+.header-menu .active{
+	text-shadow: #FFCC00 0px 0px 20px;
+	color: #EA4515;
+	font-weight: bold;
+}
+
+/*.toggle-gallery-menu{
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 35px;
+	cursor: pointer;
+}
+
+.content-page > div{
+	display: none;
+}
+
+.content-page > .active{
+	display: block;
+}
+
+.toggle-gallery-menu dt{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+}
+
+.rotate{
+	transform: rotate(-360deg);
+	transition: 1s;
+}
+
+.rotate.on{
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+.toggle-gallery-menu dt:hover{
+	text-shadow: #00ff00 0px 0px 20px;
+	color: #6b8e23;
+}
+
+.toggle-gallery-menu > dd{
+	display: none;
+	border-bottom: 1px solid #696969;
+	padding: 10px 6px;
+	background-color: rgba(255,255,255,.9);
+	font-size: 15px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+}
+
+.toggle-gallery-menu > dd:hover{
+	text-shadow: #4169e1 0px 0px 20px;
+	color: #0000cd;
+}*/
+
+main{
+	display: flex;
+	justify-content: space-around;
+}
+
+/*------sideber ------------------*/
+
+body{
+	position: relative;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav-icon{
+	position: absolute;
+	top: -0.85%;
+	left: 8%;
+	font-size: 50px;
+}
+
+.nav-icon.none{
+	display: none;
+}
+
+.nav-icon2{
+	position: absolute;
+	top: -0.85%;
+	left: 8%;
+	font-size: 50px;
+	display: none;
+}
+
+.sideber{
+	display: block;
+	position: absolute;
+	top: 2%;
+	left: -60%;
+	height: 50vh;
+	background-color: rgba(236, 203, 145, 0.9);
+	width: 20%;
+	margin: 0 auto;
+	font-weight: bold;
+	border-radius: 10px;
+	transition-duration: 800ms;
+}
+
+.sideber.on{
+	position: absolute;
+	top: 2%;
+	left: 0;
+	transition-duration: 800ms;
+}
+
+
+.sideber > li{
+	margin: 30px 0 30px;
+	color: black;
+	text-align: center;
+}
+
+.big-font{
+	color: black;
+}
+
+.series li{
+	margin-top: 10%;
+	text-align: center;
+}
+
+/*---------- galleryTop --------------*/
+
+.profile-title{
+	padding-top: 10px;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Henny Penny', cursive;
+	text-align: center;
+}
+
+.profile-title span{
+	background: linear-gradient(transparent 30%, #a8eaff 80%);
+}
+
+.section{
+	margin-top: 5%;
+}
+
+.width{
+	width: 50%;
+}
+
+.sub-tilte{
+	margin-top: 80px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.sub-tilte span{
+	border-bottom: 5px solid rgba(221, 160, 221,.7);
+}
+
+.text-box{
+	width: 80%;
+	margin-top: 50px;
+	font-size: 22px;
+}
+
+.favolite{
+	margin-top: 70px;
+}
+
+/* footer */
+/* footer */
+footer{
+	margin-top: 80px;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+}
+
+.footer01{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.scroll-top{
+	position: absolute;
+	right: 10%;
+	top: -50%;
+	color: black;
+}
+.top-button{
+	font-size: 2.2rem;
+	cursor: pointer;
+}
+.top-he{
+	font-size: 0.75rem;
+	text-align: center;
+	margin-top: 1%;
+}
+
+
+.footer01 ul{
+	width: 25%;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+.footer01 ul:first-child{
+	margin-left: 0;
+}
+
+.heading{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+footer ul{
+	margin-bottom: 0;
+}
+
+.share-icon{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.share-icon li{
+	font-size: 45px;
+	margin-left: 30px;
+}
+
+.share-icon li a{
+	color: white;
+}
+
+.share-icon li:first-child{
+	margin-left: 0;
+}
+
+.footer02{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 40px;
+	padding-bottom: 30px;
+}
+
+
+/*-------------- レスポンシブルデザイン -------------------------*/
+/*---　小型PC -----*/
+@media screen and (max-width: 1280px){
+
+
+
+
+}
+
+
+/*---  タブレット　------*/
+@media screen and (max-width: 960px){
+	/* header */
+	.header-menu > img{
+		margin-left: 40px;
+		margin-right: 30%;
+	}
+
+	.header-menu > li{
+		font-size: 16px;
+		margin-right: 20px;
+	}
+
+	.nav-icon{
+		top: -0.5%;
+		left: 6%;
+		font-size: 35px;
+	}
+	
+	.nav-icon2{
+		top: -0.5%;
+		left: 6%;
+		font-size: 35px;
+		display: none;
+	}
+	.sideber{
+		height: 50vh;
+		width: 40%;
+		font-size: 16px;
+	}
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px){
+	body{
+		min-width: 375px;
+	}
+
+	/* header */
+	header{
+		display: none;
+	}
+	/* footer */
+	.footer01{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.top-button{
+		font-size: 1.75rem;
+	}
+
+	.footer01 ul{
+		width: 90%;
+		margin-left: 0;
+		margin-top: 3%;
+	}
+
+	.share-icon li{
+		font-size: 20px;
+	}
+
+	.footer02{
+		margin-top: 0;
+		padding-bottom: 3%;
+	}
+
+	.footer02 p{
+		font-size: 12px;
+		margin-top: 3%;
+	}
+
+	.heading{
+		font-size: 12px;
+	}
+
+	.heading-text{
+		margin-top: 10px;
+		font-size: 10px;
+	}
+
+}
